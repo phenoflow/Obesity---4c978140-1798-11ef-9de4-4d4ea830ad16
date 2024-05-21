@@ -1,0 +1,72 @@
+potentialCases:
+  class: File
+  path: replaceMe.csv
+inputModule1:
+  class: File
+  path: python/read-potential-cases.py
+inputModule2:
+  class: File
+  path: python/obesity---primary.py
+inputModule3:
+  class: File
+  path: python/obesity-monitoring---primary.py
+inputModule4:
+  class: File
+  path: python/gastric-obesity---primary.py
+inputModule5:
+  class: File
+  path: python/obesity-index---primary.py
+inputModule6:
+  class: File
+  path: python/obesity-gastrectomy---primary.py
+inputModule7:
+  class: File
+  path: python/obesity-treatment---primary.py
+inputModule8:
+  class: File
+  path: python/obesity-assessment---primary.py
+inputModule9:
+  class: File
+  path: python/obesity-hypoventilation---primary.py
+inputModule10:
+  class: File
+  path: python/obesity-partitioning---primary.py
+inputModule11:
+  class: File
+  path: python/obesity-mason---primary.py
+inputModule12:
+  class: File
+  path: python/obesity-anastomosis---primary.py
+inputModule13:
+  class: File
+  path: python/obesity-hyperalimentation---primary.py
+inputModule14:
+  class: File
+  path: python/laparoscopic-obesity---primary.py
+inputModule15:
+  class: File
+  path: python/obese-obesity---primary.py
+inputModule16:
+  class: File
+  path: python/obesity-letter---primary.py
+inputModule17:
+  class: File
+  path: python/other-obesity---primary.py
+inputModule18:
+  class: File
+  path: python/obesity-pickwickian---primary.py
+inputModule19:
+  class: File
+  path: python/obesity-jejunum---primary.py
+inputModule20:
+  class: File
+  path: python/obesity-switch---primary.py
+inputModule21:
+  class: File
+  path: python/obesity-procedure---primary.py
+inputModule22:
+  class: File
+  path: python/obesity-history---primary.py
+inputModule23:
+  class: File
+  path: python/output-cases.py
