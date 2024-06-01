@@ -4,13 +4,11 @@ C380000,readv2
 C380400,readv2
 C380600,readv2
 66CE.00,readv2
-ZV65319,readv2
 C380500,readv2
 C380100,readv2
 1444.00,readv2
 66C4.00,readv2
 212Q.00,readv2
-ZC2CM00,readv2
 9OK..11,readv2
 C380.00,readv2
 C380300,readv2
@@ -85,6 +83,8 @@ Cyu7.00,readv2
 7616600.0,readv2
 7613200.0,readv2
 7611600.0,readv2
+ZV65319,readv2
+ZC2CM00,readv2
 222A.00,readv2
 22A5.11,readv2
 9OK4.00,readv2
