@@ -154,8 +154,8 @@ steps:
       potentialCases:
         id: potentialCases
         source: obesity-hyperalimentation---primary/output
-  obese-obesity---primary:
-    run: obese-obesity---primary.cwl
+  dietary-obesity---primary:
+    run: dietary-obesity---primary.cwl
     out:
     - output
     in:
@@ -165,6 +165,17 @@ steps:
       potentialCases:
         id: potentialCases
         source: laparoscopic-obesity---primary/output
+  obese-obesity---primary:
+    run: obese-obesity---primary.cwl
+    out:
+    - output
+    in:
+      inputModule:
+        id: inputModule
+        source: inputModule16
+      potentialCases:
+        id: potentialCases
+        source: dietary-obesity---primary/output
   obesity-letter---primary:
     run: obesity-letter---primary.cwl
     out:
@@ -172,7 +183,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule16
+        source: inputModule17
       potentialCases:
         id: potentialCases
         source: obese-obesity---primary/output
@@ -183,7 +194,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule17
+        source: inputModule18
       potentialCases:
         id: potentialCases
         source: obesity-letter---primary/output
@@ -194,7 +205,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule18
+        source: inputModule19
       potentialCases:
         id: potentialCases
         source: other-obesity---primary/output
@@ -205,7 +216,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule19
+        source: inputModule20
       potentialCases:
         id: potentialCases
         source: obesity-pickwickian---primary/output
@@ -216,7 +227,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule20
+        source: inputModule21
       potentialCases:
         id: potentialCases
         source: obesity-jejunum---primary/output
@@ -227,7 +238,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule21
+        source: inputModule22
       potentialCases:
         id: potentialCases
         source: obesity-switch---primary/output
@@ -238,7 +249,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule22
+        source: inputModule23
       potentialCases:
         id: potentialCases
         source: obesity-procedure---primary/output
@@ -249,7 +260,7 @@ steps:
     in:
       inputModule:
         id: inputModule
-        source: inputModule23
+        source: inputModule24
       potentialCases:
         id: potentialCases
         source: obesity-history---primary/output
@@ -349,6 +360,10 @@ inputs:
     type: File
   inputModule23:
     id: inputModule23
+    doc: Python implementation unit
+    type: File
+  inputModule24:
+    id: inputModule24
     doc: Python implementation unit
     type: File
 outputs:
